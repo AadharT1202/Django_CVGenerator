@@ -11,4 +11,4 @@ class Profile(models.Model):
     university = models.CharField(max_length=100)
     prev_work = models.TextField(max_length=1000)
     skills = models.TextField(max_length=1000)
-    
+     
